@@ -1,0 +1,69 @@
+/* public/css/contact.css
+
+body {
+    font-family: Tahoma, Arial;
+    background-color: #121212;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    background: #1e1e1e;
+    padding: 30px;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #D4AF37;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #2a2a2a;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #D4AF37;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+}
+
+button:hover {
+    background: #c5a130;
+}
+
+.success {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4CAF50;
+} */
+
+

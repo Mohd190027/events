@@ -1,0 +1,239 @@
+/* .admin-page {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.admin-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.admin-nav a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #aaa;
+}
+
+.admin-nav a.active {
+    color: #d4af37;
+}
+
+.event-card {
+    background: #121212;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 30px 80px rgba(0,0,0,.6);
+}
+
+.event-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.grid input,
+.grid textarea {
+    padding: 14px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+.grid textarea {
+    grid-column: span 2;
+    height: 100px;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.create {
+    background: linear-gradient(135deg,#f1d37a,#d4af37);
+    color: #000;
+}
+
+.edit {
+    background: #3a7afe;
+    color: #fff;
+}
+
+.delete {
+    background: #ff4d4d;
+    color: #fff;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.events-table th,
+.events-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+} */
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container */
+.admin-page {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Card Form */
+.event-card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.3);
+    color: #fff;
+}
+
+.event-card h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Grid */
+.event-card .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.event-card input,
+.event-card textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    outline: none;
+}
+
+.event-card textarea {
+    grid-column: span 2;
+    resize: none;
+    height: 80px;
+}
+
+/* Actions */
+.event-card .actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.event-card .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.event-card .btn.create {
+    background: linear-gradient(135deg, #00eaff, #0072ff);
+    color: #000;
+}
+
+.event-card .btn.edit {
+    background: linear-gradient(135deg, #ffb400, #ff6a00);
+    color: #fff;
+}
+
+.event-card .btn.cancel {
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+/* Hover Effects */
+.event-card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0,234,255,.4);
+}
+
+/* Table */
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,.3);
+    color: #fff;
+}
+
+.events-table th,
+.events-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.events-table th {
+    background: rgba(255,255,255,0.15);
+}
+
+.events-table tbody tr:nth-child(even) {
+    background: rgba(255,255,255,0.05);
+}
+
+/* Controls Buttons */
+.events-table .btn.edit {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background: #ffa500;
+}
+
+.events-table .btn.delete {
+    padding: 5px 10px;
+    background: #ff4c4c;
+    color: #fff;
+}
+
+.events-table .btn:hover {
+    opacity: 0.9;
+}
