@@ -49,6 +49,7 @@
         <a href="{{ route('events.show', $event) }}" class="event-card">
 
             <img class="event-image"
+            style="object-fit: cover; box-shadow: 0px 0px 0px 0px; border-radius: 20px;"
                 src="{{ asset('storage/' . $event->image) }}"
                 alt="{{ $event->name }}"
             >

@@ -15,7 +15,7 @@
 
     <!-- Image -->
     <div class="event-image">
-        <img class="forHover" src="{{ asset('storage/' . $event->image) }}" alt="{{ $event->name }}">
+        <img class="" src="{{ asset('storage/' . $event->image) }}" alt="{{ $event->name }}">
     </div>
 
     <!-- Content -->
